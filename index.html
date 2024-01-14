@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image" href="/coffee.png"/>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/sections/checklist.css" />
+    <link rel="stylesheet" href="css/sections/pomodoro.css" />
+    <link rel="stylesheet" href="css/sections/header.css" />
+    <link rel="stylesheet" href="css/sections/about.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <title>Study Cafe</title>
+  </head>
+
+  <body>
+    <nav id="desktop-nav">
+      <img class="coffee" src="/coffee.png" />
+      <div class="logo">Welcome to Study Cafe!</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about-us">About</a></li>
+          <li><img src="assets/search.svg" alt="search"/></li>
+        </ul>
+      </div>
+    </nav>
+
+
+    <section class="profile-container" id="profile">
+      <div class="container-left">
+        <!--TO DO LIST-->
+        <div class="todo-app">
+          <h1>To-Do List</h1>
+          <div class="row">
+            <input type="text" id="input-box" placeholder="Add Your Text!">
+            <button class="add-button" onclick="addTask()">Add</button>
+          </div>
+          <ul class="task-lists" id="list-container">
+            <!-- tasks added here -->
+          </ul>
+        </div>
+        <div class="spotify">
+          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/7K6fVGUcL6ChCsRMJP4oOC?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+      </div>
+      
+      <div class="container-right">
+         <!--POMODORO TIMER-->
+        <div class="pomodoro-app">
+        <div class="section-container">
+          <button id="focus" class="btn btn-timer btn-focus">Focus</button>
+          <button id="shortbreak" class="btn btn-shortbreak">Coffee Break</button>
+          <button id="longbreak" class="btn btn-longbreak">Long Break</button>
+        </div>
+        <div class="time-btn-container">
+          <span id="time"></span>
+          <div class="btn-container">
+            <button id="btn-start" class="show">Start</button>
+            <button id="btn-pause" class="hide">Pause</button>
+            <button id="btn-reset" class="hide">
+              <i class="fa-solid fa-rotate-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About This Project</h1>
+      <p class="section__text_p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <script src="js/script.js"></script>
+  </body>
+</html>

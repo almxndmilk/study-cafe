@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+/* other css file imports */
+/* @import url("sections/header.css");
+@import url("sections/checklist.css"); */
+
+
+/* CSS variables for reusablity across all files (including above imported) */
+:root {
+
+  --primary-color: #919f88; 
+  --secondary-color: #98a7ae;
+  --blue-1: #fff0de;
+  --green-1: #c8cfc8;
+  --green-2: #a2b1a2;
+  --green-3: #7e928a;
+  --brown-1: #d4baa9;
+  --brown-2: #b79883;
+  --pink-1: #e2b8ac;
+  --bg-color: #f8f3ef;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  max-width: 1280px;
+  margin: 0 auto;
+  background-color: var(--bg-color);
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p {
+  color: var(--black-500)
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+/* TRANSITIONS */
+
+a, .btn {
+  transition: all 300ms ease;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: normal;
+  align-items: normal;
+  align-content: normal;
+  padding: 20px;
+}
+
+.container-left {
+  display: block;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+  padding: 0px 10px 20px 20px;
+  width: 50%;
+}
+
+.container-right {
+  display: block;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+  padding: 0px 20px 20px 10px;
+  width: 50%;
+}
+
+.spotify {
+  padding-top: 20px;
+}

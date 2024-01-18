@@ -7,7 +7,7 @@
 }
 
 .todo-app h1 {
-    color: var(--secondary-color);
+    color: var(--green-3);
     display: flex;
     align-items: center;
     margin-bottom: 20px;
@@ -73,7 +73,7 @@ input {
 }
 
 .task-lists li.checked:before {
-    background-image: url(/assets/checked.png);
+    background-image: url(/assets/checked.jpg);
 
 }
 

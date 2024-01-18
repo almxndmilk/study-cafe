@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/sections/about.css" />
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-    <title>Study Cafe</title>
+    <title>Study Café</title>
   </head>
 
   <body>
@@ -20,11 +20,12 @@
       <div class="logo">Welcome to Study Cafe!</div>
       <div>
         <ul class="nav-links">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about-us">About</a></li>
-          <li><img src="assets/search.svg" alt="search"/></li>
+          <li><a href="#home" onclick="location.href='./#profile'">Take a Seat</a></li>
+          <li><a href="#about" onclick="location.href='./#about'">About</a></li>
+          <img class="cat-logo" src="assets/cat-logo.png" alt="search"/>
         </ul>
       </div>
+
     </nav>
 
 
@@ -41,45 +42,84 @@
             <!-- tasks added here -->
           </ul>
         </div>
+        <!--SPOTIFY-->
         <div class="spotify">
           <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/7K6fVGUcL6ChCsRMJP4oOC?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         </div>
       </div>
       
-      <div class="container-right">
-         <!--POMODORO TIMER-->
-        <div class="pomodoro-app">
-        <div class="section-container">
-          <button id="focus" class="btn btn-timer btn-focus">Focus</button>
-          <button id="shortbreak" class="btn btn-shortbreak">Coffee Break</button>
-          <button id="longbreak" class="btn btn-longbreak">Long Break</button>
-        </div>
-        <div class="time-btn-container">
-          <span id="time"></span>
-          <div class="btn-container">
-            <button id="btn-start" class="show">Start</button>
-            <button id="btn-pause" class="hide">Pause</button>
-            <button id="btn-reset" class="hide">
-              <i class="fa-solid fa-rotate-right"></i>
-            </button>
+        <div class="container-right">
+          <!--POMODORO TIMER-->
+          <div class="pomodoro-app">
+          <div class="section-container">
+            <button id="focus" class="btn btn-timer btn-focus">Focus</button>
+            <button id="shortbreak" class="btn btn-shortbreak">Short Break</button>
+            <button id="longbreak" class="btn btn-longbreak">Long Break</button>
+          </div>
+          <div class="time-btn-container">
+            <span id="time"></span>
+            <div class="btn-container">
+              <button id="btn-start" class="show">Start</button>
+              <button id="btn-pause" class="hide">Pause</button>
+              <button id="btn-reset" class="hide">
+                <i class="fa-solid fa-rotate-right"></i>
+              </button>
+            </div>
           </div>
         </div>
-      </div>
+        <img src="assets/cafe-room.webp" class="cafe-room"/>
       </div>
     </section>
 
     <section class="about" id="about">
+      <!--ABOUT SECTION-->
       <p class="section__text__p1">Get To Know More</p>
       <h1 class="title">About This Project</h1>
-      <p class="section__text_p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <div class="about-details-container">
-        <div class="about-containers">
-          <div class="details-container">
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img src="assets/about-pic.gif" alt="Profile picture" class="about-pic" />
+        </div>
+    
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <!-- <img src="/coffee.png" alt="Experience icon" class="icon"/> -->
+              <h3>Capstone</h3>
+              <p>Grade 12 <br />Graduation Project</p>
 
+            </div>
+            <div class="details-container">
+              <!-- <img src="/coffee.png" alt="Education icon" class="icon"/> -->
+              <h3>Coding Project</h3>
+              <p>HTML, CSS and JS <br />Expanding Coding Knowledge</p>
+
+            </div>
+          </div>
+          <div class="text-container">
+            <p class="section__text_p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia d
+              eserunt mollit anim id est laborum.</p>
           </div>
         </div>
       </div>
+        <!-- <img src="assets/arrow.png" alt="Arrow icon" class="icon-arrow" onclick="location.href='./"/> -->
     </section>
+
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#home" onclick="location.href='./#profile'">Home</a></li>
+            <li><a href="#about" onclick="location.href='./#about'">About</a></li>
+            <img class="cat-logo" src="assets/cat-logo.png" alt="search"/>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Study Cafe. All Rights Reserved.</p>
+    </footer>
 
   <script src="js/script.js"></script>
   </body>

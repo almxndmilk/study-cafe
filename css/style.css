@@ -1,14 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
-/* other css file imports */
-/* @import url("sections/header.css");
-@import url("sections/checklist.css"); */
-
-
-/* CSS variables for reusablity across all files (including above imported) */
 :root {
-
   --primary-color: #919f88; 
   --secondary-color: #98a7ae;
   --blue-1: #fff0de;
@@ -33,6 +26,8 @@ body {
   margin: 0 auto;
   background-color: var(--bg-color);
   font-family: 'Poppins', sans-serif;
+  /* background-image: url(/assets/cafe-bg.jpg);
+  background-size: cover; */
 }
 
 html {
@@ -54,6 +49,8 @@ button {
 a, .btn {
   transition: all 300ms ease;
 }
+
+/* CONTAINERS */
 
 .profile-container {
   display: flex;
@@ -87,6 +84,30 @@ a, .btn {
   width: 50%;
 }
 
+
+/* ADD INS */
+
 .spotify {
   padding-top: 20px;
+}
+
+.cafe-room {
+  display: flex;
+  width: 100%;
+  /* width: 560px;
+  height: 480px; */
+  padding: 50px 0px 50px 20px;
+}
+
+
+/* FOOTER SECTION */
+
+footer {
+  height: 26vh;
+  margin: 0 1rem;
+  padding-top: 20px;
+}
+
+footer p {
+  text-align: center;
 }

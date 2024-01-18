@@ -7,7 +7,7 @@
 }
 
 .todo-app h1 {
-    color: var(--green-3);
+    color: var(--primary-color);
     display: flex;
     align-items: center;
     margin-bottom: 20px;

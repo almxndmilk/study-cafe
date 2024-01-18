@@ -9,13 +9,6 @@
     /* padding: 175px 75px 175px 75px; */
 }
 
-.section__pic-container {
-    display: flex;
-    height: 400px;
-    width: 400px;
-    margin: auto 0;
-}
-
 .section__text__p1 {
     font-weight: 600px;
     text-align: center;
@@ -40,6 +33,7 @@
 }
 
 .about-details-container {
+    display: flex;
     justify-content: center;
     flex-direction: column;
 }
@@ -50,9 +44,8 @@
 
 .about-pic {
     border-radius: 10px;
-    width: 350px;
-    height: 350px;
-    align-items: center;
+    width: 300px;
+    height: 300px;
 }
 
 .details-container {
@@ -65,17 +58,18 @@
     text-align: center;
 }
 
-.section-container {
+.about-section-container {
     gap: 4rem;
     height: 80%;
     margin: 50px;
 }
 
-.section__pic-container {
+.about-section__pic-container {
     height: 400px;
     width: 400px;
     margin: auto 0;
 }
+
 
 /* .arrow {
     position: absolute;

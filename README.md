@@ -44,7 +44,7 @@ Contributions are welcome! Whether it’s reporting bugs, suggesting features, o
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ## ✉️ Contact
-Samantha Gan
-Email: gansamantha028@gmail.com
-GitHub: https://github.com/almxndmilk
-Project Link: https://github.com/almxndmilk/study-cafe#
+Samantha Gan  
+Email: gansamantha028@gmail.com  
+GitHub: https://github.com/almxndmilk  
+Project Link: https://github.com/almxndmilk/study-cafe#  
